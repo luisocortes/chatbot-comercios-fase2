@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Demostración de asistente para comercios afiliados">
+  <title>Comercio Asiste | Chatbot de demostración</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="layout">
+    <header class="hero">
+      <p class="eyebrow">PROYECTO ACADÉMICO · FASE II</p>
+      <h1>Comercio <span>Asiste</span></h1>
+      <p>Respuestas rápidas a consultas frecuentes de comercios afiliados a un adquirente bancario.</p>
+    </header>
+    <section class="chat" aria-label="Asistente virtual para comercios">
+      <div class="chat-head">
+        <div class="avatar" aria-hidden="true">CA</div>
+        <div><strong>Asistente de comercios</strong><small id="status">Consultando servicio...</small></div>
+        <div class="pill">Demo</div>
+      </div>
+      <div class="messages" id="messages" role="log" aria-live="polite" aria-relevant="additions">
+        <article class="bubble assistant">¡Hola! Puedo orientarte sobre liquidaciones, conciliación, terminales, contracargos, comisiones y reportes. ¿Qué necesitas saber?</article>
+      </div>
+      <div class="suggestions" aria-label="Preguntas de ejemplo">
+        <button type="button" data-question="¿Cuándo depositan mis ventas?">Liquidaciones</button>
+        <button type="button" data-question="Mi terminal marca error de conexión">Terminal</button>
+        <button type="button" data-question="¿Cómo respondo un contracargo?">Contracargos</button>
+      </div>
+      <form id="chat-form">
+        <label class="sr-only" for="question">Escribe tu consulta</label>
+        <input id="question" maxlength="500" minlength="2" required autocomplete="off" placeholder="Escribe tu pregunta...">
+        <button id="send" type="submit">Enviar</button>
+      </form>
+      <p class="disclaimer">No ingreses números de tarjeta, datos bancarios, claves ni información personal. Esta demo no realiza transacciones ni se conecta a un banco.</p>
+    </section>
+    <footer>Motor de recuperación TF-IDF · API FastAPI · Prototipo sin acceso a datos reales</footer>
+  </main>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

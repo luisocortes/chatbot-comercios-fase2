@@ -1,0 +1,158 @@
+[
+  {
+    "id": "F01",
+    "tema": "liquidaciones",
+    "titulo": "Calendario de liquidaciones",
+    "preguntas": [
+      "¿Cuándo se deposita el dinero de mis ventas con terminal?",
+      "¿En cuánto tiempo recibo la liquidación de mis cobros?",
+      "No veo el depósito de las ventas del día",
+      "¿Por qué no me abonan?"
+    ],
+    "respuesta": "La fecha de abono depende del contrato, el calendario de liquidación y los días inhábiles. Revisa en el portal de comercios el reporte de liquidaciones y el estado del abono. Si no se refleja en la fecha contratada, solicita revisión con el folio de liquidación, sin compartir datos bancarios por el chat.",
+    "fuente": "Base de conocimiento de demostración / operaciones de liquidación"
+  },
+  {
+    "id": "F02",
+    "tema": "conciliacion",
+    "titulo": "Conciliación de ventas",
+    "preguntas": [
+      "¿Cómo concilio las ventas del POS con mis depósitos?",
+      "Tengo diferencias entre el corte y el abono",
+      "¿Dónde consulto la conciliación diaria?",
+      "Ayuda para comparar transacciones y liquidaciones"
+    ],
+    "respuesta": "Descarga el reporte de operaciones y el reporte de liquidaciones del mismo periodo. Compara fecha, importe bruto, comisiones, devoluciones y ajustes. Si persiste una diferencia, abre un caso desde el portal de comercios indicando periodo y folio del reporte, sin adjuntar datos sensibles de tarjetas.",
+    "fuente": "Base de conocimiento de demostración / conciliación"
+  },
+  {
+    "id": "F03",
+    "tema": "terminal",
+    "titulo": "Terminal sin conexión",
+    "preguntas": [
+      "Mi terminal punto de venta no tiene internet",
+      "El POS marca error de conexión",
+      "¿Qué hago si la terminal no se conecta?",
+      "La TPV perdió señal de red"
+    ],
+    "respuesta": "Comprueba la alimentación eléctrica y la conexión Wi-Fi, Ethernet o datos móviles. Reinicia el equipo siguiendo el manual del fabricante y realiza una prueba sin cobrar al cliente. Si continúa el problema, contacta soporte técnico con el modelo de terminal y el código de error; no compartas claves ni información de tarjetas.",
+    "fuente": "Base de conocimiento de demostración / soporte TPV"
+  },
+  {
+    "id": "F04",
+    "tema": "contracargos",
+    "titulo": "Notificación de contracargo",
+    "preguntas": [
+      "Me llegó un contracargo, ¿qué hago?",
+      "¿Cómo respondo a una disputa de pago?",
+      "Necesito evidencia para una aclaración de contracargo",
+      "Recibí una reclamación por operación desconocida"
+    ],
+    "respuesta": "Consulta la notificación oficial y su fecha límite en el portal. Reúne comprobantes permitidos, evidencia de entrega y documentación de la operación. Presenta la respuesta por el canal autenticado antes del vencimiento. El asistente no resuelve ni revierte contracargos automáticamente.",
+    "fuente": "Base de conocimiento de demostración / contracargos"
+  },
+  {
+    "id": "F05",
+    "tema": "reembolsos",
+    "titulo": "Devoluciones y reembolsos",
+    "preguntas": [
+      "¿Cómo realizo un reembolso desde mi terminal?",
+      "Quiero devolver una venta al cliente",
+      "¿Cuánto tarda una devolución en reflejarse?",
+      "Proceso de cancelación o devolución de una compra"
+    ],
+    "respuesta": "Inicia la devolución desde el módulo autorizado de la terminal o portal, siguiendo el manual aplicable. Los plazos dependen del adquirente, el emisor y el tipo de operación. Verifica siempre el folio de devolución y evita repetirla si no conoces su estado.",
+    "fuente": "Base de conocimiento de demostración / devoluciones"
+  },
+  {
+    "id": "F06",
+    "tema": "comisiones",
+    "titulo": "Comisiones y estados de cuenta",
+    "preguntas": [
+      "¿Cómo reviso las comisiones por cobro con tarjeta?",
+      "¿Dónde veo la tasa de descuento de mi comercio?",
+      "Quiero consultar mi estado de cuenta",
+      "¿Por qué me descontaron una comisión?"
+    ],
+    "respuesta": "En el portal de comercios consulta el estado de cuenta y el desglose por operación. Las tasas y comisiones aplicables son las de tu contrato vigente. Para aclaraciones sobre importes específicos, abre una solicitud en el canal autenticado.",
+    "fuente": "Base de conocimiento de demostración / comisiones"
+  },
+  {
+    "id": "F07",
+    "tema": "facturacion",
+    "titulo": "Facturas de comisiones",
+    "preguntas": [
+      "Necesito factura de las comisiones del adquirente",
+      "¿Dónde descargo mi CFDI de servicios?",
+      "No puedo bajar la factura de mi comisión",
+      "¿Cómo obtengo los comprobantes fiscales?"
+    ],
+    "respuesta": "Ingresa al portal fiscal habilitado por tu proveedor adquirente, valida que tus datos fiscales estén actualizados y descarga los CFDI disponibles. Si un comprobante no aparece, solicita asistencia por el canal de facturación oficial.",
+    "fuente": "Base de conocimiento de demostración / facturación"
+  },
+  {
+    "id": "F08",
+    "tema": "acceso",
+    "titulo": "Acceso al portal de comercios",
+    "preguntas": [
+      "Olvidé la contraseña del portal de comercios",
+      "No puedo iniciar sesión en mi cuenta",
+      "¿Cómo recupero mi usuario del portal?",
+      "Me bloquearon el acceso a la plataforma"
+    ],
+    "respuesta": "Usa la opción oficial de recuperación de acceso y verifica tu identidad mediante los mecanismos del portal. No compartas contraseñas, códigos OTP ni tokens de autenticación en este chat. Si el bloqueo persiste, contacta al soporte de identidad del adquirente.",
+    "fuente": "Base de conocimiento de demostración / acceso"
+  },
+  {
+    "id": "F09",
+    "tema": "reportes",
+    "titulo": "Descarga de reportes",
+    "preguntas": [
+      "¿Dónde descargo mis reportes de ventas?",
+      "Necesito el histórico de transacciones de la TPV",
+      "¿Puedo exportar mis ventas a Excel?",
+      "Busco reporte mensual de operaciones"
+    ],
+    "respuesta": "Desde el portal de comercios abre Reportes, selecciona un rango de fechas y exporta el archivo en el formato disponible. Revisa los filtros de terminal, sucursal y estatus de operación antes de conciliar. El nombre de las secciones puede variar según el proveedor.",
+    "fuente": "Base de conocimiento de demostración / reportes"
+  },
+  {
+    "id": "F10",
+    "tema": "afiliacion",
+    "titulo": "Alta de terminal adicional",
+    "preguntas": [
+      "Quiero contratar otra terminal para mi negocio",
+      "¿Cómo solicito una TPV adicional?",
+      "Necesito afiliar una sucursal nueva",
+      "¿Cómo agrego otra terminal a mi comercio?"
+    ],
+    "respuesta": "Solicita el alta de la nueva terminal mediante el portal o asesor comercial, sujeto a condiciones contractuales y validación de identidad del comercio. No envíes documentos oficiales ni información fiscal sensible mediante este chat de demostración.",
+    "fuente": "Base de conocimiento de demostración / afiliación"
+  },
+  {
+    "id": "F11",
+    "tema": "seguridad",
+    "titulo": "Posible fraude o acceso no autorizado",
+    "preguntas": [
+      "Creo que alguien está usando mi terminal sin permiso",
+      "Sospecho un fraude en mi comercio",
+      "Detecté una operación desconocida",
+      "Alguien robó mis contraseñas del portal"
+    ],
+    "respuesta": "Si sospechas fraude o acceso indebido, utiliza de inmediato los canales oficiales de bloqueo y atención de seguridad de tu adquirente. No compartas contraseñas, códigos ni datos de tarjeta. Este asistente no bloquea terminales ni ejecuta movimientos.",
+    "fuente": "Base de conocimiento de demostración / seguridad"
+  },
+  {
+    "id": "F12",
+    "tema": "contacto",
+    "titulo": "Canales de atención humana",
+    "preguntas": [
+      "Necesito hablar con una persona de soporte",
+      "¿Cómo levanto un ticket con un agente?",
+      "Quiero contactar a un ejecutivo",
+      "Mi caso requiere atención especializada"
+    ],
+    "respuesta": "Para atención personalizada, abre un ticket en el portal oficial de comercios o utiliza los canales verificados de soporte de tu adquirente. Ten a la mano el folio del incidente y la descripción general del problema. No compartas información sensible en este entorno de demostración.",
+    "fuente": "Base de conocimiento de demostración / escalamiento"
+  }
+]
