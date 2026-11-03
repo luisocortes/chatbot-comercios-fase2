@@ -1,0 +1,10 @@
+services:
+  chatbot:
+    build: .
+    image: chatbot-comercios-fase2:1.0
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: "8000"
+      CONFIDENCE_THRESHOLD: "0.24"
+    restart: unless-stopped
